@@ -21,10 +21,7 @@ const cors = require("cors");
 //sabse pehle routes -> auth.js mein jayega poori file dekhegi agar usme kahi require ayega toh uss file pr jayega poori file dekhega
 //My routes
 var authRoutes = require("./routes/auth.js");
-// var userRoutes = require("./routes/user.js");
-// var categoryRoutes = require("./routes/category.js");
-// var productRoutes = require("./routes/product.js");
-// var orderRoutes = require("./routes/order.js");
+
 
 
 
@@ -46,10 +43,7 @@ app.use(cors());
 // //My routes
 // // console.log("statement or this");
 app.use("/api", authRoutes);
-// app.use("/api", userRoutes);
-// app.use("/api", categoryRoutes);
-// app.use("/api", productRoutes);
-// app.use("/api", orderRoutes);
+
 
 
 
